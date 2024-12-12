@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import Link from 'next/link'
 
 export default function Home() {
@@ -47,7 +47,7 @@ export default function Home() {
             { name: 'Ragnar oratmagoen', company: 'XYZ Inc', text: 'The mobile app developed by TechSundanise has revolutionized our customer engagement.' }
           ].map((testimonial, index) => (
             <div key={index} className="bg-muted p-6 rounded-lg">
-              <p className="mb-4">"{testimonial.text}"</p>
+              <p className="mb-4">{testimonial.text}</p>
               <p className="font-semibold">{testimonial.name}, {testimonial.company}</p>
             </div>
           ))}

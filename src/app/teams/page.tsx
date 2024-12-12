@@ -1,6 +1,5 @@
 'use client'
-import Image from 'next/image'
-import { getData } from '@/API/data'
+import { getData } from '@/api/data'
 import { useEffect, useState } from 'react';
 
 
